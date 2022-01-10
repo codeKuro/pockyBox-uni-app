@@ -25,7 +25,7 @@
 
 		<view class="u-banner">
 			<u-toast ref="uToast"></u-toast>
-			<u-swiper @change="change" :height="250" :list="list" :title="titles" :indicator-pos="indicatorPos"
+			<u-swiper @change="change" :height="350" :list="list" :title="titles" :indicator-pos="indicatorPos"
 				:mode="mode" :interval="3000"></u-swiper>
 		</view>
 		<view class="u-content">
@@ -66,61 +66,46 @@
 		data() {
 			return {
 				list: [{
-						image: 'https://cdn.uviewui.com/uview/swiper/1.jpg',
+						image: 'https://ae01.alicdn.com/kf/Ha55f1173442a4af1b3b90fb8d92ec9ber.jpg',
 						title: '昨夜星辰昨夜风，画楼西畔桂堂东'
 					},
 					{
-						image: 'https://cdn.uviewui.com/uview/swiper/2.jpg',
+						image: 'https://ae01.alicdn.com/kf/Hed55bb505e094b9a8471b3c93654a174B.jpg',
 						title: '身无彩凤双飞翼，心有灵犀一点通'
 					},
 					{
-						image: 'https://cdn.uviewui.com/uview/swiper/3.jpg',
+						image: 'https://ae01.alicdn.com/kf/H264d09cbe5e046b4851ab5ec950b98c5j.jpg',
 						title: '谁念西风独自凉，萧萧黄叶闭疏窗，沉思往事立残阳'
 					}
 				],
 				mallList: [{
-						image: 'https://cdn.uviewui.com/uview/swiper/2.jpg',
-						title: '昨夜星辰昨夜风，画楼西畔桂堂东'
+						image: 'https://ae01.alicdn.com/kf/Hf54597527bed40bba6c909533352f4deX.jpg'
 					},
 					{
-						image: 'https://cdn.uviewui.com/uview/swiper/2.jpg',
-						title: '身无彩凤双飞翼，心有灵犀一点通'
+						image: 'https://ae01.alicdn.com/kf/Hbfe370f016fe4d51b49a9f4632faeb0ew.jpg'
 					},
 					{
-						image: 'https://cdn.uviewui.com/uview/swiper/1.jpg',
-						title: '昨夜星辰昨夜风，画楼西畔桂堂东'
+						image: 'https://ae01.alicdn.com/kf/Hfab0177857334bf4bc8773814dee41faI.jpg'
 					},
 					{
-						image: 'https://cdn.uviewui.com/uview/swiper/2.jpg',
-						title: '身无彩凤双飞翼，心有灵犀一点通'
+						image: 'https://ae01.alicdn.com/kf/Ha125c8aaa66e494fa66634effac1b61ev.jpg'
 					},
 					{
-						image: 'https://cdn.uviewui.com/uview/swiper/1.jpg',
-						title: '昨夜星辰昨夜风，画楼西畔桂堂东'
-					},
-					{
-						image: 'https://cdn.uviewui.com/uview/swiper/2.jpg',
-						title: '身无彩凤双飞翼，心有灵犀一点通'
-					},
-					{
-						image: 'https://cdn.uviewui.com/uview/swiper/3.jpg',
-						title: '谁念西风独自凉，萧萧黄叶闭疏窗，沉思往事立残阳'
+						image: 'https://ae01.alicdn.com/kf/H0ccc67d3dfe348aebdb2e7e878e44254B.jpg'
 					}
 				],
 				boxList: [{
-					image: 'https://cdn.uviewui.com/uview/swiper/3.jpg',
-					title: '谁念西风独自凉，萧萧黄叶闭疏窗，沉思往事立残阳'
-				}, {
-					image: 'https://cdn.uviewui.com/uview/swiper/3.jpg',
-					title: '谁念西风独自凉，萧萧黄叶闭疏窗，沉思往事立残阳'
-				}, {
-					image: 'https://cdn.uviewui.com/uview/swiper/3.jpg',
-					title: '谁念西风独自凉，萧萧黄叶闭疏窗，沉思往事立残阳'
-				}, {
-					image: 'https://cdn.uviewui.com/uview/swiper/3.jpg',
-					title: '谁念西风独自凉，萧萧黄叶闭疏窗，沉思往事立残阳'
-				}],
-
+						image: 'https://ae01.alicdn.com/kf/Hbfe370f016fe4d51b49a9f4632faeb0ew.jpg'
+					},
+					{
+						image: 'https://ae01.alicdn.com/kf/Hfab0177857334bf4bc8773814dee41faI.jpg'
+					},
+					{
+						image: 'https://ae01.alicdn.com/kf/Ha125c8aaa66e494fa66634effac1b61ev.jpg'
+					},
+					{
+						image: 'https://ae01.alicdn.com/kf/H0ccc67d3dfe348aebdb2e7e878e44254B.jpg'
+					}],
 				titles: false,
 				title: '',
 				backText: '返回',
@@ -207,11 +192,11 @@
 		color: #55aaff;
 	}
 
-	.u-mall-list {
+	.u-mall-list {	
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
-		flex-wrap: nowrap;
+		flex-wrap: nowrap;	
 		overflow-x: auto;
 		overflow-y: hidden;
 		padding: 4px;
@@ -223,6 +208,7 @@
 
 	.u-mall-item image {
 		width: 100%;
+		height: 180px;
 	}
 
 	.u-button-area {
